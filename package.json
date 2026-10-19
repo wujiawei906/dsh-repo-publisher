@@ -1,0 +1,38 @@
+{
+  "name": "@local/dsh-repo-publisher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standardizes a local project (README, .gitignore, LICENSE, CI, package.json) and publishes it to a GitHub repository.",
+  "meta": {
+    "title": "Repo Publisher",
+    "description": "Detects a project's shape, fills in the standard GitHub files it is missing, creates the remote repository, and pushes the result."
+  },
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "cordis.patch.yml"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.0-rc.2 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wujiawei906/dsh-repo-publisher"
+  }
+}

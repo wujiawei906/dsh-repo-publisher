@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "仓库发布器",
+    "description": "检测项目类型与缺失的标准文件，补齐 README、.gitignore、LICENSE、CI 与 package.json 字段，创建 GitHub 仓库并推送。"
+  }
+}

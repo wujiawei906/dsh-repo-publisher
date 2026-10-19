@@ -1,0 +1,3 @@
+- insert:
+    - id: repo-publisher
+      name: '@local/dsh-repo-publisher'

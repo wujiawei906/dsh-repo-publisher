@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Repo Publisher">
+  <path d="M6 7h12l3 3v15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+  <path d="M18 7v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+  <path d="M9 17h8M9 21h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+  <path d="M24 20v6M21 23l3-3 3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

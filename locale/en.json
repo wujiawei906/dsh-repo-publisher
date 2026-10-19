@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Repo Publisher",
+    "description": "Detects a project's shape, fills in the standard GitHub files it is missing, creates the remote repository, and pushes the result."
+  }
+}
